@@ -1,7 +1,7 @@
 Product Navigation App
-تطبيق Flutter بسيط يوضح فكرة عرض المنتجات والتنقل بينها باستخدام navigation مع تمرير البيانات بين الشاشات (تكليف لمقرر Flutter )
+تطبيق Flutter بسيط يوضح فكرة عرض المنتجات والتنقل بينها بإستخدام Navigation مع تمرير البيانات بين الشاشات وعرض التفاصيل بطريقة منظمة ( تكليف لمقرر تطبيقات موبايل )
 
-📸 لقطات الشاشة
+📸 لقطات الشاشة :
 <p align="center">
   <img src="screenshots/nav 1.png" width="400"/>
 </p>
@@ -14,14 +14,17 @@ Product Navigation App
   <img src="screenshots/nav 3.png" width="400"/>
 </p>
 
-⭐ الوظائف الأساسية
+⭐ الوظائف الأساسية:
+
 عرض قائمة منتجات (Product List)
 عرض تفاصيل المنتج (Product Details)
 التنقل بين الشاشات
 تمرير البيانات بين الصفحات
-إرجاع بيانات عند الرجوع (Pop )
+إرجاع بيانات عند الرجوع (Pop)
+
 
 🔄 آلية التنقل وتمرير البيانات (Navigation & Data Passing)
+
 تم استخدام:
 Dart
 Navigator.push()
@@ -30,9 +33,11 @@ Navigator.push()
 اسم المنتج
 السعر
 الصورة
-عن طريق الـ constructor بين الشاشات
-.
+عن طريق الـ Constructor بين الشاشات.
+
+
 🔙 إدارة المكدس (Stack & Pop)
+
 تم استخدام:
 Dart
 Navigator.pop()
@@ -40,7 +45,10 @@ Navigator.pop()
 عند الرجوع يتم إرسال قيمة (Result) وعرضها باستخدام:
 Dart
 SnackBar
-🧠 تفاصيل تقنية (Technical Insights)
+
+
+تفاصيل تقنية (Technical Insights)
+
 تم استخدام ListView لعرض المنتجات بشكل ديناميكي
 تصميم كرت لكل منتج باستخدام Container و BoxDecoration
 استخدام Image.asset لعرض الصور
@@ -48,11 +56,9 @@ SnackBar
 BorderRadius
 Shadow
 Dark Theme
+
+
 🛠️ التقنيات المستخدمة
-
 Flutter: إطار العمل
-
-Dart: لغة البرمجة
-
-Material Design: تصميم الواجهة
-
+Dart : لغة البرمجة
+Material Design : تصميم الواجهة
