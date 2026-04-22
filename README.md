@@ -54,3 +54,24 @@ SnackBar
 
 ```dart
 Navigator.push()
+
+## 🧠 تفاصيل تقنية (Technical Insights)
+
+- تم استخدام ListView لعرض المنتجات بشكل ديناميكي  
+- تصميم كرت لكل منتج باستخدام Container و BoxDecoration  
+- استخدام Image.asset لعرض الصور  
+
+- تحسين الواجهة باستخدام:
+  - BorderRadius  
+  - Shadow  
+  - Dark Theme  
+
+---
+
+## 🛠️ التقنيات المستخدمة
+
+| التقنية | الاستخدام |
+|--------|----------|
+| Flutter | إطار العمل |
+| Dart | لغة البرمجة |
+| Material Design | تصميم الواجهة |
