@@ -1,0 +1,21 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Generated files
+*.lock
